@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Strict//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+<style type="text/css">
+table tr td{
+color: white;
+font-size:20px;
+}
+input[type=button]{
+width: 150px;
+}
+h1{
+text-align: center;
+background-color: red;
+}
+</style>
+</head>
+<body bgcolor="#ff0">
+<h1>Welcome to Employee Registation Page</h1>
+<form action="regemp" method="POST">
+<table border="1" bgcolor="blue" align="center" cellpadding="5" cellspacing="5">
+<tr>
+<td>Employee Id </td>
+<td><input type="text" name="eid" />  </td>
+</tr>
+<tr> 
+<td>Employee Name </td>
+<td><input type="text" name="ename" />  </td>
+</tr>
+<tr> 
+<td>Employee Salary </td>
+<td><input type="text" name="esal" />  </td>
+</tr>
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="Male" />Male <input type="radio" name="gender" value="Female" />Female </td>
+</tr>
+<tr>
+<td>Employee Type </td>
+<td><select name="etype">
+<option value="null">--select--</option>
+<option value="Seller">Seller</option>
+<option value="Consumer">Consumer</option>
+ </select> </td>
+</tr>
+<tr> 
+<td>Employee Addr </td>
+<td><input type="text" name="eaddr" />  </td>
+</tr>
+<tr> 
+<td><input type="submit" name="action" value="Register" />  </td>
+<td><input type="submit" name="action" value="ViewAll" />  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>
